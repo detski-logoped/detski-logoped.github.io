@@ -1,0 +1,180 @@
+::selection {
+  background: #0085a1;
+  color: #fff;
+  text-shadow: none;
+}
+
+body {
+  background-color: #ea2d49;
+}
+
+a {
+  color: #c0273c;
+}
+
+a:focus,
+a:hover {
+  color: #ea2d49;
+}
+.head, .head a:hover,.head a:link,.head a:visited {	
+	color: white;
+}
+.headf, .headf a:hover,.headf a:link,.headf a:visited {	
+	color: white;
+	text-align: left;
+	padding-top: 0.4rem;
+	padding-bottom: 0.5rem;
+	margin-bottom: 0rem;
+}
+.white a:hover,.white a:link,.white a:visited {
+
+	color: white;
+}
+
+div.gallery img {	
+    padding: 0 0px;
+}
+div.gallery {
+    margin: 0px;
+    float: left;
+    width: 160px;
+}
+
+.google-maps {
+	position: relative;
+	padding-bottom: 75%; // This is the aspect ratio
+	height: 0;
+	overflow: hidden;
+}
+.google-maps iframe {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100% !important;
+	height: 100% !important;
+}
+.menu {
+	background-color:#c0273c;
+                width:100%;
+                height:100%;
+
+}
+blockquote {
+  color: #818a91;
+  font-style: italic;
+  background-color: #f3f3f3
+}
+
+hr {
+  margin: 1.5rem 0;
+}
+
+.text-muted {
+color: #ea2d49;
+	
+}
+/* ------------------------------------------------------------------------- */
+
+.container {
+  max-width: 960px;
+}
+
+.header,
+.footer {
+  padding: 0rem 0 0rem;
+}
+
+.header {
+  border-bottom: 1px solid rgba(0,0,0,.1);
+}
+
+.header img {
+  margin-bottom: 0rem;
+  margin-top: 0.8rem;
+}
+
+.header .title {
+  font-weight: bold;
+  margin-bottom: 0rem;
+}
+
+.header ul,
+.header li {
+  margin-bottom: 0rem;
+  padding-right: 0.7rem;
+  padding-left: 0.1rem;
+}
+
+.header ul {
+  font-size: 1rem;
+  padding-top: 0.4rem;  
+  padding-bottom:  0.4rem;
+}
+
+.main {
+  background-color: #fff;
+  padding: 1.5rem 0;
+}
+
+.footer {
+  border-top: 1px solid rgba(0,0,0,.1);
+  text-align: left;
+
+}
+
+.highlight pre {
+  border: 1px solid rgba(0,0,0,.1);
+  padding: 1rem;
+}
+
+.pagination .page-link {
+  color: #333;
+}
+
+.teaser header ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+.teaser header li {
+  margin-bottom: .5rem;
+}
+
+.teaser .content p {
+  margin-bottom: 0;
+}
+
+.article header ul,
+.article header li {
+  margin-bottom: .5rem;
+}
+
+.article header li:not(:last-child) {
+  margin-right: 10px;
+}
+
+.article .content a {
+  text-decoration: underline
+}
+
+@media (min-width: 576px) {
+  .header .title {
+    font-size: 3rem;
+	
+  }
+}
+
+@media (max-width: 576px) {
+  .header,
+  .footer {
+    text-align: center;
+  }
+
+  .teaser header li {
+    display: inline-block;
+  }
+
+  .teaser header li:not(:last-child) {
+    margin-right: 10px;
+  }
+}
